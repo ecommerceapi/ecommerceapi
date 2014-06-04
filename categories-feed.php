@@ -5,6 +5,7 @@ header("HTTP/1.1 200 OK");
 if(!get_option('fruity_feed_option')) die;
 
 
+
 function fruity_rss_date( $timestamp = null ) {
   $timestamp = ($timestamp==null) ? time() : $timestamp;
   echo date(DATE_RSS, $timestamp);
