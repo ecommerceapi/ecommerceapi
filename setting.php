@@ -1,6 +1,7 @@
 <?php 
     $error_str = '';$fruity_error = FALSE;
     if(isset($_POST['submit'])){
+
         $number_post = $_POST['number_post'];
         $order_type = $_POST['order_type'];
 //        $feed_title = $_POST['feed_title'];
