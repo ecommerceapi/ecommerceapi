@@ -4,6 +4,7 @@
 
         $number_post = $_POST['number_post'];
         $order_type = $_POST['order_type'];
+
 //        $feed_title = $_POST['feed_title'];
 //        $feed_link = $_POST['feed_link'];
 //        $feed_email = $_POST['feed_email'];
